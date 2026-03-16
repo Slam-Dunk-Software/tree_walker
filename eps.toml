@@ -1,0 +1,14 @@
+[package]
+name        = "tree_walker"
+version     = "0.1.0"
+description = "EPS codebase index — extracts public symbols from all your projects."
+authors     = ["Slam-Dunk-Software"]
+license     = "MIT"
+repository  = "https://github.com/Slam-Dunk-Software/tree_walker"
+platform    = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu"]
+
+[eps]
+type = "tool"
+
+[service]
+enabled = false
